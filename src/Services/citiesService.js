@@ -1,7 +1,7 @@
 // src/services/geoDbService.js
 import axios from 'axios';
-
-const API_KEY = '1145d18a05msh1643be8798cce88p14cfebjsn2642d6783c86';
+import config from "../../config.json"
+const API_KEY = config.api_key;
 const BASE_URL = 'https://wft-geo-db.p.rapidapi.com/v1';
 
 const geoDbServiceApi = axios.create({

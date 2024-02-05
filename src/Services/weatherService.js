@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_KEY = 'd49ae588101d4658ae2142208242501';
+import config from "../../config.json"
+const API_KEY = config.weather_api_key;
 const BASE_URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}`;
 
 const weatherServiceAPI = axios.create({
