@@ -1,0 +1,5 @@
+export {default as ErrorPage} from "./ErrorPage/ErrorPage"
+export {default as NotFoundPage} from "./NotFoundPage/NotFoundPage"
+export {default as CitiesPage} from "./CitiesPage/CitiesPage"
+export {default as MainPage} from "./MainPage/MainPage"
+export {default as CurrenciesPage} from "./CurrenciesPage/CurrenciesPage"
